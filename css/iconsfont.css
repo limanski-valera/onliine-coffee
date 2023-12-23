@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?x8x5ly');
+  src:  url('../fonts/icons.eot?x8x5ly#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?x8x5ly') format('truetype'),
+    url('../fonts/icons.woff?x8x5ly') format('woff'),
+    url('../fonts/icons.svg?x8x5ly#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*=" _icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-arrow:before {
+  content: "\e900";
+}
+._icon-call:before {
+  content: "\e901";
+}
+._icon-cart:before {
+  content: "\e902";
+}
+._icon-email:before {
+  content: "\e904";
+}
+._icon-facebook:before {
+  content: "\e905";
+}
+._icon-instagram:before {
+  content: "\e906";
+}
+._icon-linkedin:before {
+  content: "\e907";
+}
+._icon-twitter:before {
+  content: "\e909";
+}
